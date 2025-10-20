@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Auto Pilot</string>
+    <string name="accessibility_service_description">Autoscroll service untuk media sosial dan aplikasi lainnya</string>
+    <string name="start_autoscroll">Mulai Autoscroll</string>
+    <string name="stop_autoscroll">Hentikan Autoscroll</string>
+    <string name="scroll_speed">Kecepatan Scroll</string>
+    <string name="scroll_delay">Delay (ms)</string>
+    <string name="enable_service">Aktifkan Service</string>
+    <string name="service_enabled">Service Sudah Aktif</string>
+    <string name="service_disabled">Service Belum Diaktifkan</string>
+    <string name="autoscroll_running">Autoscroll Berjalan...</string>
+    <string name="autoscroll_stopped">Autoscroll Berhenti</string>
+    <string name="debug_panel">Debug Panel</string>
+    <string name="show_debug">Tampilkan Debug</string>
+    <string name="hide_debug">Sembunyikan Debug</string>
+    <string name="allowed_apps">Aplikasi yang Diizinkan</string>
+    <string name="check_logcat">Cek Logcat untuk Detail</string>
+    <string name="toggle_autoscroll">Toggle Autoscroll</string>
+    <string name="show_floating_button">Tampilkan Tombol Melayang</string>
+    <string name="hide_floating_button">Sembunyikan Tombol Melayang</string>
+</resources>

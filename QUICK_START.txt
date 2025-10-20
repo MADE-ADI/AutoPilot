@@ -1,0 +1,76 @@
+# AUTO PILOT - QUICK REFERENCE
+
+## ⚡ Quick Build & Run
+
+```powershell
+# Build
+./gradlew build
+
+# Install ke device
+./gradlew installDebug
+
+# Install & run
+./gradlew installDebug --quiet && echo "Done!"
+```
+
+## 🎯 Activation Steps (Saat Pertama Kali)
+
+1. **Buka App Auto Pilot**
+2. **Klik "Aktifkan Service"** 
+3. **Cari "AutoscrollService" di Accessibility**
+4. **Aktifkan + Berikan Permission**
+5. **Balik ke App - Selesai!**
+
+## 🎮 Usage
+
+| Action | Result |
+|--------|--------|
+| Adjust Slider | Ubah kecepatan scroll |
+| Klik "Mulai" | Autoscroll dimulai |
+| Buka Social Media | Scroll mulai otomatis |
+| Klik "Hentikan" | Scroll berhenti |
+
+## ⚙️ Delay Recommendations
+
+```
+500-1000ms  → Testing
+1200ms      → Fast browsing
+2000ms      → Normal (recommended)
+3000ms      → Slow & relaxed
+4500ms      → Reading mode
+```
+
+## 📱 App-Specific Delays
+
+| App | Delay | Note |
+|-----|-------|------|
+| Instagram | 1500ms | Optimal |
+| TikTok | 2500ms | Longer videos |
+| Twitter | 1800ms | Quick content |
+| Facebook | 2000ms | Mixed content |
+| YouTube | 3000ms | Watch time |
+| Reddit | 1600ms | Text heavy |
+
+## 🔑 Key Features
+
+✓ Human-like scroll behavior  
+✓ Random speed & timing  
+✓ Natural gesture duration  
+✓ Variable delays  
+✓ Simple UI  
+✓ Works background  
+
+## 🐛 Common Issues
+
+**Service tidak aktif?**
+→ Restart app & device
+
+**Scroll tidak jalan?**
+→ Check logcat, verify permissions
+
+**Lambat?**
+→ Increase delay value
+
+---
+
+**Built with Kotlin • Jetpack Compose • Accessibility API**
