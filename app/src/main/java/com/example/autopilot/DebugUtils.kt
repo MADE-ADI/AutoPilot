@@ -107,13 +107,10 @@ object AllowedApps {
             "com.twitter.android.lite" -> "Twitter Lite"
             "com.google.android.youtube" -> "YouTube"
             "com.google.android.youtube.tv" -> "YouTube TV"
-            "com.reddit.frontpage" -> "Reddit"
-            "org.telegram.messenger" -> "Telegram"
-            "com.whatsapp" -> "WhatsApp"
             "com.snapchat.android" -> "Snapchat"
-            "com.linkedin.android" -> "LinkedIn"
+
             "com.instagram.threads" -> "Threads"
-            "xyz.blueskyweb.app" -> "Bluesky"
+
             else -> packageName
         }
     }
